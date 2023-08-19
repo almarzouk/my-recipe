@@ -53,7 +53,7 @@ function getMealList() {
         mealList.classList.remove("notFound");
       } else {
         // If there is no meal with the entered value
-        html = `<p>Sorry, We don't find any meal with ${"searchInputText"}</p>`;
+        html = `<p>Sorry, We don't find any meal with ${searchInputText}</p>`;
         mealList.classList.add("notFound");
       }
       mealList.innerHTML = html;
